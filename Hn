@@ -1,0 +1,379 @@
+//GAMMA
+
+texgamma 4
+gamma 7
+r_lighting_modulate 0.7
+r_lighting_ambient 0.3
+
+alias "bm" "r_lighting_modulate 0.7;r_lighting_ambient 0.3;gamma 7"
+
+alias "wm" "r_lighting_modulate 0.7;r_lighting_ambient 0.3;gamma 7"
+
+//CONFIGS GERAIS
+
+con_color "255 255 255"
+con_notifytime "-1"
+hud_scale "1.0"
+zoom_sensitivity_ratio "0.8"
+
+// FPS & RATES
+
+rate "100000"
+cl_cmdrate "60"
+cl_updaterate "60"
+ex_interp "0.01"
+fps_max "999"
+r_decals "100"
+cl_minmodels "1"
+
+//CFG SERVERS
+
+sv_downloadurl "http://bit.ly/FastdlCS16A/"
+sv_allow_download "1"
+sv_allow_upload "1"
+
+// commands & cfg
+
+sv_cheats 1
+max_smokepuffs 0
+max_shells 0
+_cl_autowepswitch 0
+cl_forwardspeed 400
+cl_sidespeed 400
+cl_upspeed 320
+latch
+sv_maxspeed 9999
+bots_speed 800
+bots_dont_attack 1
+cl_nosmooth 1
+r_dynamic "1"
+cl_dynamiccrosshair "0"
+cl_crosshair_color "0 0 0"
+cl_crosshair_size "small" 
+cl_anglespeedkey "100"
+r_decals 0
+mp_decals 0
+hud_utf8 1
+hud_textmode 0
+cl_righthand 0
+zoom_sensitivity_ratio "1.2"
+cl_draw_particles 1
+cl_weapon_wallpuff "0"
+cl_weapon_sparks "0"
+cl_enable_split 1
+cl_maxpavkey 40000
+rate 100000
+cl_cmdrate 101
+cl_updaterate 101
+cl_maxpacket 1400
+cl_pitchspeed 5 
+con_color "255 255 255"
+con_fontsize "0.25"
+cl_showfps "1"
+cl_crosshair_translucent 0
+touch_move_indicator "0"
+con_notifytime "-1"
+con_alpha 0
+cl_bob 0
+r_vbo 1
+r_fastsky 1
+volume 0.35
+setinfo _pw ""
+cl_updaterate "101"
+cl_cmdrate "101"
+mp_consistency 0
+r_detailtextures 0
+gl_max_size 512
+r_decals 100
+cl_minmodels "1" 
+sleeptime 0
+developer "1"
+r_vbo 1
+cl_weapon_sparks "0"
+cl_draw_particles 0
+violence_ablood 0
+violence_hblood 0
+sv_cheats 1  
+fps_override 1
+gl_dither 1
+gl_cull 1
+gl_keeptjunctions 0
+gl_max_size 128
+gl_clear 0
+d_spriteskip 0
+r_dynamic 1
+r_mirroralpha 0
+gl_palette_tex 0
+r_norefresh 0
+gl_round_down 5
+cl_weather 0
+max_shells 0
+gl_wateramp 0
+r_shadows 0
+r_waterwarp 0
+fastsprites 1
+cl_highmodels 0
+cl_shadows 0
+gl_picmip 0
+gl_playermip 2
+joystick 0
+r_mmx
+max_smokepuffs 0
+ex_interp 0.01
+cl_updaterate 102
+cl_cmdrate 102
+rate 100000
+hpk_maxsize 0
+gl_vsync 0
+gl_fog 0
+brightness 2
+max_shells 0
+max_smokepuffs 0
+r_mirroralpha 0
+cl_corpsestay 0
+cl_shadows 0
+cl_weather 0
+gl_ansio 0
+m_customaccel 0
+m_customaccel_exponent 0
+m_customaccel_max 0
+m_customaccel_scale 0 
+m_rawinput 1
+m_filter 0
+r_detailtextures 0
+cl_bobcycle 1
+r_adjust_fov 1
+violence_ablood 0
+violence_agibs 0
+violence_hblood 0
+violence_hgibs 0
+hpk_maxsize "4"
+viewsize "120"
+cl_crosshair_color "250 250 250"
+fps_override "1"
+fps_max "9999"
+max_shells "5"
+max_smokepuffs "5"
+gl_dither "1"
+gl_clear "0"
+gl_affinemodels "1"
+gl_max_size "256"
+gl_cull "1"
+gl_vsync "0"
+gl_ansio "0"
+gl_overbright "0
+gl_keeptjunctions "0"
+gl_lightholes 0
+gl_monolights "1"
+gl_spriteblend "0"
+gl_fog "0"
+gl_wateramp "0"
+gl_polyoffset "4"
+gl_round_down "3"
+gl_texturemode GL_LINEAR_MIPMAP_NEAREST
+r_mmx "1"
+r_dynamic "0"
+r_decals "30"
+r_mirroralpha "0"
+r_detailtextures "0"
+r_detailtexturessupported "0"
+r_fullbright "1"
+r_wateralpha "1"
+r_mirroralpha "0"
+r_lightmap "0"
+r_norefresh "0"
+r_traceglow "0
+cl_pitchspeed "6"
+cl_himodels "0"
+cl_weather "0"
+cl_nosmooth "1"
+cl_solid_players "0"
+cl_corpsestay "60"
+cl_dlmax "80"
+cl_resend "0"
+cl_filterstuffcmd "1"
+cl_righthand "1"
+cl_bob "0"
+cl_bobcycle "0.8"
+cl_bobup "0"
+cl_showfps "1"
+cl_updaterate "101"
+cl_cmdrate "101"
+cl_shadows "0"
+cl_solid_players "0"
+_cl_autowepswitch "0"
+setinfo "_vgui_menus" "1"
+setinfo "_ah" "0"
+snd_noextraupdate "1"
+violence_ablood 0
+violence_agibs "0"
+violence_hblood 0
+violence_hgibs "0"
+ati_npatch "0"
+hud_centerid "1"
+hud_fastswitch "1"
+ambient_fade "0"
+d_spriteskip "0"
+m_rawinput "1"
+v_dark "1"
+ex_interp "0.01"
+mp_decals "8"
+net_graph "3"
+gunsmoke "0"
+hisound "1"
+fastsprites "1"
+joystick "0"
+violence_ablood 0
+violence_agibs 0
+violence_hblood 0
+violence_hgibs 0
+cl_gunsmoke "0"
+violence_ablood 0
+violence_agibs 0
+violence_hblood 0
+violence_hgibs 0
+
+//The bind
+bind kp_minus antircl
+
+
+// double duck
+alias "+dd" "+duck;wait;-duck;wait;+duck"
+alias "-dd" "-duck"
+
+
+// walk
+alias walk1 "+speed; alias klaw walk2"
+alias walk2 "-speed; alias klaw walk1"
+alias klaw walk1
+
+// x
+alias x "yb_ignore_enemies 1"
+
+// stats
+alias +stats  "+showscores"
+alias -stats  "-showscores"
+
+// bhop
+alias +bhop "alias _special @bhop;@bhop"  
+alias -bhop "alias _special"  
+alias @bhop "special;wait;+jump;wait;-jump"
+alias MORE "@bhop; @bhop; @bhop; @bhop; @bhop"
+alias +bh "MORE"
+alias -bh "MORE;+bh"
+
+// lastinv
+alias +5 "lastinv"
+alias -5 "lastinv"
+
+// onetap 
+alias onetap "+attack;wait;-attack"
+
+
+// modulate
+alias "bm" "r_lighting_modulate 0.7;r_lighting_ambient 0.3;gamma 7"
+
+
+// gstrafe SCRIPT
+alias +gs "+walk; +duck; wait; -walk; -duck; wait; +walk; +duck; wait; -walk; -duck; wait; +walk; +duck; wait; -walk; -duck; wait; +walk; +duck; wait; -walk; -duck; wait"
+
+// Multi-Strafe
+alias +strafes1 "+left; +moveleft; wait10; -moveleft; -left; strafe.qA2_right; strafe.qA2_left; +right; +moveright; wait10; -moveright; -right; +duck; wait40; -duck"
+alias +strafeleft "+left; +moveleft; wait20; -moveleft; -left"
+alias +straferight "+right; +moveright; wait20; -moveright; -right"
+alias _jump.qA2 "+jump; wait; -jump"
+
+// Pre-Strafe
+alias s.qA2_run "+forward; wait40; wait10; wait10; -forward"
+alias s.qA2_pre "+forward; wait40; cl_yawspeed 105; +left; +moveleft; wait40; wait20; -moveleft; -forward; -left; cl_yawspeed 210"
+alias run_qA2.LJ4 "s.qA2_run; _jump.qA2; strafe.qA2_4"
+alias pre_qA2.LJ4 "s.qA2_pre; _jump.qA2; strafe.qA2_4"
+bind "ALT" "run_qA2.LJ4" // Straight-Forward Runup
+bind "CAPSLOCK" "pre_qA2.LJ4" // Pre-Strafe Runup
+
+
+// fast buys
+alias wtf "vest; vesthelm; secammo;defuser"
+alias awpsh "awp; primammo; vest; vesthelm"
+alias +allgren "flash; flash; hegren; vesthelm"
+alias deagl "deagle; secammo"
+alias ak "m4a1; ak47; buyammo1; buyammo2"
+
+
+//  Toggle HUD
+alias toggle_hud "hudON"
+alias hudON "alias toggle_hud hudOFF;hud_draw 1;r_drawviewmodel 1"
+alias hudOFF "alias toggle_hud hudON;hud_draw 0;r_drawviewmodel 0"
+
+// cjump
+alias +cjump "+jump; +duck"
+alias -cjump "-jump; -duck"
+bind "J" "+cjump"
+
+// sniper
+alias "+sniper" "+attack2; w; w; +attack;w;w; wait; wait; wait; weapon_knife; wait; +attack"
+alias "-sniper" "-attack2; w; w; -attack; wait; -attack; lastinv"
+bind "Y" "+sniper "
+
+// awp
+alias +awp "+attack ; +attack"
+alias -awp "-attack ; -attack"
+bind "T" "+awp"
+
+// quick-awp
+bind "z" "+quickslash"
+alias +quickslash "weapon_knife; wait; +attack"
+alias -quickslash "-attack; lastinv"
+
+// burst
+alias "semi" "+attack;longwait;-attack"
+alias "burst" "+attack;longwait;-attack;longwait;+attack;longwait;-
+attack;longwait;+attack;longwait;-attack;longwait"
+bind "mouse1" "+attack"'
+bind "-" "triggergroup"
+
+// snipere-exp
+alias "sniperexpert" "sniperon"
+alias "sniperon" "bind mouse1 sniper; echo Sniper Expert *ON*; speak doop.activated; alias sniperexpert sniperoff;"
+alias "sniperoff" "bind mouse1 +attack; echo Sniper Expert *OFF*; speak doop.deactivated; alias sniperexpert sniperon;"
+alias "sniper" "+attack2;wait;wait;-attack2;wait;wait;+attack;wait;-attack;wait;lastinv;wait;lastinv;wait;"
+bind "A" "sniperexpert"
+
+// Script Code
+alias "@GarfIIeld|Moderator[Shake]" "GarfIIeld|Moderator[Down];GarfIIeld|Moderator[Up]"
+alias "+GarfIIeld|Moderator[Shot]" "GarfIIeld|Moderator[Lagg];@GarfIIeld|Moderator[Shake];+attack"
+alias "-GarfIIeld|Moderator[Shot]" "GarfIIeld|Moderator[Unlagg];-attack"
+
+alias "GarfIIeld|Moderator[Lagg]" "cl_updaterate 10;cl_cmdrate 10;rate 5000"
+alias "GarfIIeld|Moderator[Unlagg]" "cl_updaterate 101;cl_cmdrate 101;rate 25000"
+alias "GarfIIeld|Moderator[Down]" "+lookdown;wait;-lookdown"
+alias "GarfIIeld|Moderator[Up]" "+lookup;wait;-lookup"
+
+alias "GarfIIeld|Moderator[ON/OFF]" "GarfIIeld|Moderator[OFF]"
+alias "GarfIIeld|Moderator[OFF]" "bind mouse1 +attack;clear;echo;echo GarfIIeld`s Anti-Recoil Script - The New Generation [Lag] is *Deactivated*;echo;alias GarfIIeld|Moderator[ON/OFF] GarfIIeld|Moderator[ON]"
+alias "GarfIIeld|Moderator[ON]" "bind mouse1 +GarfIIeld|Moderator[Shot];clear;echo;echo GarfIIeld`s Anti-Recoil Script - The New Generation [Lag] is *Activated*;echo;alias GarfIIeld|Moderator[ON/OFF] GarfIIeld|Moderator[OFF]"
+
+
+// fast attack 
+alias +fastattack "alias _special @fastattack; @fastattack"
+alias -fastattack "alias _special"
+alias @fastattack "special; wait; +attack; wait; -attack"
+bind "mouse1" "+fastattck"
+
+
+
+// ID Changer
+alias id "bash3d_change_id fdd531cba55673d47cb278ab66feed8b"
+
+// random
+alias random "bash3d_change_id 6848757d3814e90eb88f2c12bdf8f286"
+
+// WH
+alias wh "bash3d_wallhack_enable 1"
+
+
+gl_zmax 3600
+
+echo Userconfig.cfg ^1ACTIVATED"
+
+//end userconfig.cfg
